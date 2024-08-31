@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="menu">
+          <input type="checkbox" id="check">
+          <div class="logo"><a href="#">Logo</a></div>
+            <ul>
+              <label class="btn cancel" for="check"><i class="fas fa-times"></i></label>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+            <label for="check" class="btn bars"><i class="fas fa-bars"></i></label>
+          </div>
+        </div>
+      </nav>
+   <section class="s1">
+    <div>
+        <h1>Slide 1</h1>
+    </div>
+   </section>
+   <section class="s2">
+    <div>
+        <h1>Slide 2</h1>
+    </div>
+   </section>
+   <section class="s3">
+    <div>
+        <h1>Slide 3</h1>
+    </div>
+   </section>
+   <section class="s4">
+    <div>
+        <h1>Slide 4</h1>
+    </div>
+   </section>
+
+<script>
+    this.onscroll = () => {
+        // console.log(nav);
+        nav.style.bgcolor = "red";
+    }
+</script>
+</body>
+</html>
